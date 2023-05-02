@@ -1,0 +1,28 @@
+
+
+.footer {
+    
+    margin-top: 187px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    background: #213B7E;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+@media screen and (max-width: 600px) {
+    .footer {
+        min-width: 320px;
+   }   
+}
+.footer__link {
+    color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.3s;
+}
+.footer__link:hover {
+    color:aliceblue;
+}

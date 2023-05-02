@@ -1,0 +1,65 @@
+.contentstudents {
+    width: 1202px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+ 
+
+@media screen and (max-width: 767px) {
+    .contentstudents {
+        margin: 24px 8px;
+    } 
+}
+.contentstudents__name {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+} 
+.contentstudents__student {
+    width: 200px;
+    position: relative;
+}
+.contentstudents__students {
+    justify-content: center;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.content__title {
+    padding-top: 33px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.contentstudents__title {
+    padding-top: 37px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    color: #000000; 
+}
+.new::after{
+    content:'НОВИЧОК';
+    width: 94px;
+    position: absolute;
+    top: -12px;
+    right: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background: #3AA828;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2px 0px 1px;
+}

@@ -1,0 +1,26 @@
+.contentabout {
+    width: 820px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.contentabout__subtitle {
+    padding-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000; 
+}
+.contentabout__title {
+    padding-top: 33px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000; 
+}
+.contentabout__video {
+    width: 820px;
+    max-width: 100%;
+}
