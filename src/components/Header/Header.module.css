@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     
 
 }
@@ -138,3 +138,262 @@
         width: 76px;
    }  
 }
+
+.entrance {
+    position: absolute;
+    width: 500px;
+    height: 418px;
+    background: #FFFFFF;
+    border: 1px solid #213B7E;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 160px;
+    animation-name: example;
+    animation-duration: 1.2s;
+    z-index: 1000;
+}
+.entrance__buttonexit {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+    background-color:#EA5D21;
+    border: none;
+    color: white;
+}
+.entrance__buttonexit:hover {
+    color:  #213B7E;
+}
+
+@keyframes example {
+     from {top: -500px;}
+     to {top: 160px;}
+    
+  }
+
+
+
+
+@media screen and (max-width: 767px) {
+    .entrance {
+        width: 442px;
+        height: 371px;
+          
+    }
+}
+@media screen and (max-width: 600px) {
+    .entrance {
+        width: 375px;
+        height: 315px;
+        
+    }
+    .entrance__buttonexit {
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+
+} 
+@media screen and (max-width: 427px) {
+    .entrance  {
+            width: 342px;
+            height: 286px;
+    }
+    .entrance__buttonexit {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+    } 
+    }   
+@media screen and (max-width: 375px) {
+    .entrance  {
+        width: 310px;
+        height: 260px;
+    }
+      
+    }   
+
+    
+    .entrance__button {
+        width: 153px;
+        height: 50px;
+        background: #EA5D21;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin: 0 auto;
+        border-style: none;
+        
+        
+    }
+    .entrance__button:hover {
+        color:  #213B7E;
+    }
+    .entrance__button:active {
+        background: #21ea3c; 
+    }
+    @media screen and (max-width: 600px) {
+        .entrance__button {
+            width: 128px;
+            height: 42px;
+               
+        }  
+    }
+    .entrance__form {
+        width: 500px;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .entrance__form {
+            width: 442px;   
+           }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .entrance__form {
+            width: 375px;
+        } 
+     }
+     @media screen and (max-width: 427px) {
+        .entrance__form {
+         width: 342px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        .entrance__form {
+         width: 310px;
+        }
+    }
+    .entrance__password {
+        width: 416px;
+        height: 55px;
+        background: #FFFFFF;
+        border: 1px solid #808080;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #808080;
+        padding: 0 14px 0;
+        margin: 56px 28px;
+        outline: none;
+        
+      
+    }
+    @media screen and (max-width: 767px) {
+        .entrance__password {
+            width: 364px;
+            height: 50px;
+            margin: 40px 24px;
+            font-size: 20px;
+            line-height: 26px;
+    }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .entrance__password {
+            width: 306px;
+            height: 42px;
+            margin: 37px 20px;
+            font-size: 18px;
+            line-height: 22px;
+         } 
+    }
+    @media screen and (max-width: 427px) {
+        .entrance__password {
+            width: 270px;
+            height: 38px;
+            margin: 32px 20px;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        .entrance__password {
+    width: 246px;
+    height: 36px;
+    margin: 26px 17px;
+    }
+    }
+    .entrance__text {
+        width: 416px;
+        height: 55px;
+        background: #FFFFFF;
+        border: 1px solid #808080;
+        margin: 36px 28px 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #808080;
+        padding: 0 14px 0;
+        outline: none;
+        
+        
+    } 
+    @media screen and (max-width: 767px) {
+        .entrance__text {
+        width: 364px;
+        height: 50px;
+        margin: 26px 24px 0;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .entrance__text {
+            width: 306px;
+            height: 42px;
+            margin: 26px 20px 0;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    @media screen and (max-width: 427px) {
+        .entrance__text {
+            width: 270px;
+            height: 38px;
+            margin: 20px 20px 0;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        .entrance__text {
+    width: 246px;
+    height: 36px;
+    margin: 20px 17px 0;
+    }
+    }
+    .entrance__title { 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        
+    }
+    @media screen and (max-width: 600px) {
+        .entrance__title { 
+            font-size: 17px;
+            line-height: 19px;
+        } 
+    }
+ 
+    
